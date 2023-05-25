@@ -1,6 +1,6 @@
-import { render } from "@testing-library/react";
 import Home from ".";
+import { renderTheme } from "../../styles/render-theme";
 
 test("renders", () => {
-  render(<Home />);
+  renderTheme(<Home />);
 });

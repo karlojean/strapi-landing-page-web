@@ -1,3 +1,5 @@
+import { Container } from "./styles";
+
 export default function Home() {
-  return <div>Teste</div>;
+  return <Container>Teste</Container>;
 }
