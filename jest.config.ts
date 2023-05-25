@@ -12,4 +12,5 @@ export default {
     "!<rootDir>/src/templates/**/*.{js,jsx,ts,tsx}",
     "!<rootDir>/node_modules/",
   ],
+  setupFiles: ["<rootDir>/test/setupTests.ts"],
 };
