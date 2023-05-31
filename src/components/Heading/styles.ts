@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div`
-  background-color: ${props => props.theme.colors.darkBg}
+interface Props {
+  colorDark: boolean,
+}
+
+export const Title = styled.h1<Props>`
+  ${({theme, colorDark}) => `
+  color: ${colorDark ? theme.colors.primaryBg : theme.colors.white}
+  `}
 `
